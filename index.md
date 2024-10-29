@@ -6,14 +6,14 @@ order: 1
 search_engines: false
 ---
 
-![alt text](/assets/media/generic_data_image.png)
+![alt text](/assets/media/generic_data_image.JPG)
 
 <h2 align="center">Open Source Projects at USA for UNHCR</h2>
 
 <div style="display: flex; align-items: center; gap: 20px;">
 
   <!-- Logo Section -->
-  <div style="flex: 0 0 5%;">
+  <div style="flex: 0 0 25%;">
     <img src="assets/media/U4U_logo.png" alt="USA for UNHCR logo" style="width: 100%;">
   </div>
 
@@ -34,7 +34,7 @@ search_engines: false
 
   <!-- First Entry -->
   <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="flex: 0 0 20%; margin-right: 20px;">
+    <div style="flex: 0 0 50%; margin-right: 20px;">
       <img src="assets/media/electricalpole.jpg" alt="electrical mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px;">
@@ -48,7 +48,7 @@ search_engines: false
 
   <!-- Second Entry -->
   <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="flex: 0 0 20%; margin-right: 20px;">
+    <div style="flex: 0 0 50%; margin-right: 20px;">
       <img src="assets/media/solar.jpg" alt="roof mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px;">
