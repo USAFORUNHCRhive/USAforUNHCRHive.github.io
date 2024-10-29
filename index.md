@@ -32,7 +32,7 @@ search_engines: false
 
   <!-- First Entry -->
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <div style="flex: 0 0 35%; margin-right: 20px;">
+    <div style="flex: 0 0 25%; margin-right: 20px;">
       <img src="assets/media/electricalpole.jpg" alt="electrical mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px;">
@@ -48,7 +48,7 @@ search_engines: false
 
   <!-- Second Entry -->
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <div style="flex: 0 0 35%; margin-right: 20px;">
+    <div style="flex: 0 0 25%; margin-right: 20px;">
       <img src="assets/media/solar.jpg" alt="roof mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px;">
