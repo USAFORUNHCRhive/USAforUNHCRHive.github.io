@@ -1,0 +1,22 @@
+.contact_nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact_nav a {
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: white;
+    color: var(--foreground);
+    font-weight: normal;
+    border: 1px solid var(--foreground)
+}
+.contact_nav a:hover, a:active {
+    color: white;
+    background-color: var(--foreground);
+    border: 1px solid var(--foreground)
+}

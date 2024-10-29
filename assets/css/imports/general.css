@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    /* background: var(--background); */
+    color: var(--foreground);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header * {
+    margin: 0 auto;
+}
+/* section sizes */
+.small_div_w {
+  width: 90%;
+  max-width: 800px;
+}
+.medium_div_w {
+  width: 90%;
+  max-width: 1200px;
+}
+.big_div_w {
+  width: 100%;
+}
+
+sl-radio-group::part(form-control-input)	{
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border-bottom: 0.5px var(--foreground) solid;
+  margin-bottom: 15px;
+  padding-bottom: 15px; */
+}
+sl-radio	{
+  margin-right: 20px;
+}
+img {
+  width: 100%;
+}

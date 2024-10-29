@@ -1,0 +1,49 @@
+body {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+p, ul, li {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.title{
+    color: var(--bluetheme);
+    font-weight: 100;
+    text-align: center;
+}
+p.sub {
+    color: var(--foreground);
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.black{
+    font-weight: 900;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    line-height: 110%;
+    /* margin-top: 60%;
+    margin-bottom: 60%; */
+    color: var(--bluetheme);
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 900;
+}
+a {
+    color: var(--foreground);
+}
+a:active, a:hover {
+    color: var(--bluetheme)
+}

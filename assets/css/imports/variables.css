@@ -1,0 +1,16 @@
+:root {
+  --foreground: #333333;
+  --background: #f4fbfa;
+  --bluetheme: #0072BC;
+  --lightblue: #99C7E4;
+
+  --refugee: var(--bluetheme);
+  --climate: #00B398;
+  --digital: #FAF5AF;
+  --data: #18375F;
+
+  --refugee-light: #CCE3F2;
+  --climate-light: #b1efe6;
+  --digital-light: #faf8e4;
+  --data-light: #b8cefe ;
+}

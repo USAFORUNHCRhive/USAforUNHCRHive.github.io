@@ -1,0 +1,13 @@
+/* navigation imports */
+@import url(imports/00_navigation.css);
+@import url(imports/07_contact.css);
+@import url(imports/08_credits.css);
+@import url(imports/09_footer.css);
+
+/* graphic details */
+@import url(imports/responsiveness.css);
+@import url(imports/variables.css);
+@import url(imports/reset.css);
+@import url(imports/typography.css);
+@import url(imports/general.css);
+@import url(imports/screen-reader.css);
