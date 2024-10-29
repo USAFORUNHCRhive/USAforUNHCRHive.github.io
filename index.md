@@ -7,7 +7,6 @@ search_engines: false
 ---
 
 ![alt text](/assets/media/generic_data_image_thin.JPG)
-
 <h2 align="center">Open Source Projects at USA for UNHCR</h2>
 
 <div style="display: flex; align-items: center; gap: 20px;">
@@ -27,9 +26,6 @@ search_engines: false
 
 </div>
 
-
-</div>
-
 <div style="display: flex; flex-direction: column; gap: 30px;">
 
   <!-- First Entry -->
@@ -37,7 +33,7 @@ search_engines: false
     <div style="flex: 0 0 35%; margin-right: 20px;">
       <img src="assets/media/electricalpole.jpg" alt="electrical mapping image" style="width:100%;">
     </div>
-    <div style="flex: 1; margin-left: 20px; font-size: 1.5em;">
+    <div style="flex: 1; margin-left: 20px;">
       Mapping electrical infrastructure in refugee camps using high resolution drone imagery.  
       <br>
       <a href="https://github.com/USAFORUNHCRhive/turkana-grid-mapping">Repository</a>  
@@ -51,7 +47,7 @@ search_engines: false
     <div style="flex: 0 0 35%; margin-right: 20px;">
       <img src="assets/media/solar.jpg" alt="roof mapping image" style="width:100%;">
     </div>
-    <div style="flex: 1; margin-left: 20px; font-size: 1.5em;">
+    <div style="flex: 1; margin-left: 20px;">
       Mapping buildings & solar panels in refugee camps using high resolution drone imagery.  
       <br>
       <a href="https://github.com/USAFORUNHCRhive/turkana-camp-roof-mapping">Repository</a>  
