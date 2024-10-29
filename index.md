@@ -20,21 +20,25 @@ search_engines: false
   <div style="flex: 1;">
     The Hive is the innovation lab at USA for UNHCR. Our 
     <a href="https://github.com/USAFORUNHCRhive">repositories</a> 
-    use data science to enhance fundraising operations for refugees. In addition, we collaborate on open source projects on assorted topics related to refugees, detailed below. We invite you to learn more about these projects and contribute. Let us know if you have any questions at 
+    use data science to enhance fundraising operations for refugees. We also collaborate on open source projects covering a range of topics related to refugees, detailed below. We invite you to learn more about the projects listed below and to contribute. Let us know if you have any questions at 
     <a href="mailto:hive@unrefugees.org">hive@unrefugees.org</a>.
   </div>
 
 </div>
 
+<br>
+
 <div style="display: flex; flex-direction: column; gap: 30px;">
 
   <!-- First Entry -->
-  <div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <div style="flex: 0 0 35%; margin-right: 20px;">
       <img src="assets/media/electricalpole.jpg" alt="electrical mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px;">
-      Mapping electrical infrastructure in refugee camps using high resolution drone imagery.  
+      <p style="font-weight: 600;">
+      Mapping electrical infrastructure in refugee camps using high resolution drone imagery.
+      </p>
       <br>
       <a href="https://github.com/USAFORUNHCRhive/turkana-grid-mapping">Repository</a>  
       <br>
@@ -43,12 +47,14 @@ search_engines: false
   </div>
 
   <!-- Second Entry -->
-  <div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
     <div style="flex: 0 0 35%; margin-right: 20px;">
       <img src="assets/media/solar.jpg" alt="roof mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px;">
-      Mapping buildings & solar panels in refugee camps using high resolution drone imagery.  
+      <p style="font-weight: 600;">
+      Mapping buildings & solar panels in refugee camps using high resolution drone imagery.
+      </p>
       <br>
       <a href="https://github.com/USAFORUNHCRhive/turkana-camp-roof-mapping">Repository</a>  
       <br>
