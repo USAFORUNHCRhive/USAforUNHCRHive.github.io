@@ -41,7 +41,7 @@ search_engines: false
       </p>
       <a href="https://github.com/USAFORUNHCRhive/turkana-grid-mapping" style="color: #0073e6;">Repository</a>  
       <br>
-      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/" style="color: #0073e6;">Media about this project</a>
+      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/" style="color: #0073e6;">Read more about this project</a>
     </div>
   </div>
 
@@ -56,7 +56,7 @@ search_engines: false
       </p>
       <a href="https://github.com/USAFORUNHCRhive/turkana-camp-roof-mapping" style="color: #0073e6;">Repository</a>  
       <br>
-      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/" style="color: #0073e6;">Media about this project</a>
+      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/" style="color: #0073e6;">Read more about this project</a>
     </div>
   </div>
 
