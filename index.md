@@ -40,9 +40,9 @@ search_engines: false
     <div style="flex: 1; margin-left: 20px; font-size: 1.5em;">
       Mapping electrical infrastructure in refugee camps using high resolution drone imagery.  
       <br>
-      <a href="https://github.com/USAFORUNHCRhive/turkana-grid-mapping" style="font-size: 1.5em;">Repository</a>  
+      <a href="https://github.com/USAFORUNHCRhive/turkana-grid-mapping">Repository</a>  
       <br>
-      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/" style="font-size: 1.5em;">Media about this project</a>
+      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/">Media about this project</a>
     </div>
   </div>
 
@@ -54,9 +54,9 @@ search_engines: false
     <div style="flex: 1; margin-left: 20px; font-size: 1.5em;">
       Mapping buildings & solar panels in refugee camps using high resolution drone imagery.  
       <br>
-      <a href="https://github.com/USAFORUNHCRhive/turkana-camp-roof-mapping" style="font-size: 1.5em;">Repository</a>  
+      <a href="https://github.com/USAFORUNHCRhive/turkana-camp-roof-mapping">Repository</a>  
       <br>
-      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/" style="font-size: 1.5em;">Media about this project</a>
+      <a href="https://www.unrefugees.org/news/kakuma-and-kalobeyei-drone-imagery-and-machine-learning-for-better-planning-of-refugee-settlements/">Media about this project</a>
     </div>
   </div>
 
