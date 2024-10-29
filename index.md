@@ -12,7 +12,7 @@ search_engines: false
 <div style="display: flex; align-items: center; gap: 30px; margin: 20px 0; padding: 20px;">
 
   <!-- Logo Section -->
-  <div style="flex: 0 0 20%; max-width: 150px;">
+  <div style="flex: 0 0 30%; max-width: 150px;">
     <img src="assets/media/U4U_logo.png" alt="USA for UNHCR logo" style="width: 100%;">
   </div>
 
@@ -32,7 +32,7 @@ search_engines: false
 
   <!-- First Entry -->
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <div style="flex: 0 0 20%; max-width: 200px; margin-right: 20px;">
+    <div style="flex: 0 0 30%; max-width: 200px; margin-right: 20px;">
       <img src="assets/media/electricalpole.jpg" alt="electrical mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px; font-size: 1.1em;">
@@ -47,7 +47,7 @@ search_engines: false
 
   <!-- Second Entry -->
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <div style="flex: 0 0 20%; max-width: 200px; margin-right: 20px;">
+    <div style="flex: 0 0 30%; max-width: 200px; margin-right: 20px;">
       <img src="assets/media/solar.jpg" alt="roof mapping image" style="width:100%;">
     </div>
     <div style="flex: 1; margin-left: 20px; font-size: 1.1em;">
