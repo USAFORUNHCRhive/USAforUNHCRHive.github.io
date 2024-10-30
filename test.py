@@ -10,17 +10,13 @@ def testFunctionWithBadFormatting():
 testFunctionWithBadFormatting()
 
 query = """
-  SELECT
-         id,
+  SELECT id,
          o.closedate,
          SUM(o.amount) AS amount
-    FROM
-         raw_salesforce.opportunity AS o
-GROUP BY
-         id,
+    FROM raw_salesforce.opportunity AS o
+GROUP BY id,
          o.closedate
-   LIMIT
-         10
+   LIMIT 10
 """
 
 
