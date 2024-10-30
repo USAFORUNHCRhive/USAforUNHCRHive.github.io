@@ -51,7 +51,29 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # Linting job
+  # Errors - need to pass
+  errors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install formatting tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 flake8-nb
+
+      - name: Run Flake8 for errors
+        run: |
+          flake8 --select=E,W . # Adjust according to errors to include
+
+  # Linting/formatting - dont need to pass
   formatting:
     runs-on: ubuntu-latest
 
@@ -69,11 +91,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install sqlparse==0.4.3 'black[jupyter]' flake8 flake8-nb flake8-sql
 
-      - name: Run Flake8 for errors
-        run: |
-          flake8 --select=E,W . # Adjust according to errors to include
-
-      - name: Run Flake8 (linter inc SQL)
+      - name: Run Flake8 (linter)
         run: |
           flake8 --ignore=Q447,Q449 .
 
