@@ -14,13 +14,10 @@ import os
 
 query = """
 SELECT
-    CASE
-        WHEN temp_soft.id IS NULL THEN o.accountid 
-        ELSE temp_soft.accountid
-    END AS account_id
-    , o.closedate
-    , SUM(o.amount) AS amount
+    id, o.closedate
+, SUM(o.amount) AS amount
  FROM raw_salesforce.opportunity AS o
+ group by id, o.closedate
  LIMIT 10
 """
 
@@ -35,7 +32,7 @@ def fetchData(query):
     pandas_gbq.context.credentials = credentials
     pandas_gbq.context.project = "u4u-ds-prod-00"
 
-    df = pandas_gbq.read_gbq(query, dtypes={"closedate": "datetime64"})
+    df = pandas_gbq.read_gbq(query)
     return df
 
 test2 = fetchData(query)  # Call the function with the query
