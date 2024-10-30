@@ -67,7 +67,7 @@ jobs:
       - name: Install formatting tools
         run: |
           python -m pip install --upgrade pip
-          pip install black flake8 flake8-sql
+          pip install sqlparse==0.4.3 'black[jupyter]' flake8 flake8-nb sqlfluff
 
       - name: Run Black (code formatter)
         run: |
@@ -75,4 +75,4 @@ jobs:
 
       - name: Run Flake8 (linter)
         run: |
-          flake8
+          flake8 --ignore=Q447,Q449 .
