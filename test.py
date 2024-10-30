@@ -11,11 +11,16 @@ testFunctionWithBadFormatting()
 
 query = """
 SELECT
-    id, o.closedate
-, SUM(o.amount) AS amount
- FROM raw_salesforce.opportunity AS o
- group by id, o.closedate
- LIMIT 10
+    id,
+    o.closedate,
+    SUM(o.amount) AS amount
+FROM
+    raw_salesforce.opportunity AS o
+group by
+    id,
+    o.closedate
+LIMIT
+    10
 """
 
 
