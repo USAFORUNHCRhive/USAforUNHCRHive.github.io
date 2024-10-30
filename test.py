@@ -7,8 +7,6 @@ def testFunctionWithBadFormatting():
     print("Done.")
 
 
-d
-
 testFunctionWithBadFormatting()
 
 query = """
