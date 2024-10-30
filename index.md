@@ -18,10 +18,11 @@ search_engines: false
 
   <!-- Text Section -->
   <div style="flex: 1; font-size: 1.1em; line-height: 1.6;">
-    The Hive is the innovation lab at USA for UNHCR. Our 
-    <a href="https://github.com/USAFORUNHCRhive" style="color: #0073e6;">repositories</a> 
-    use data science to enhance fundraising operations for refugees. We also collaborate on open-source projects covering a range of topics related to refugees, detailed below. We invite you to learn more about the projects listed below and to contribute. For questions, reach out at 
-    <a href="mailto:hive@unrefugees.org" style="color: #0073e6;">hive@unrefugees.org</a>.
+    The Hive is the innovation lab at USA for UNHCR. We use data science to enhance refugee fundraising operations and build tools addressing issues impacting refugees. Our work is hosted on these
+    <a href="https://github.com/USAFORUNHCRhive" style="color: #0073e6;">repositories</a>
+    , including the open source projects detailed below. We invite you to learn more about the projects and contribute. Contcact
+    <a href="mailto:hive@unrefugees.org" style="color: #0073e6;">hive@unrefugees.org</a>
+    with any questions.
   </div>
 
 </div>
